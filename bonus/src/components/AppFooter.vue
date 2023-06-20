@@ -4,25 +4,6 @@
 
 <template>
 
-    <div class="container_2">
-        <div class="row">
-            <img src="../assets/buy-comics-digital-comics.png" alt="">
-            <div>DIGITAL COMICS</div>
-
-            <img src="../assets/buy-comics-merchandise.png" alt="">
-            <div>DC MERCHANDISE</div>
-
-            <img src="../assets/buy-comics-subscriptions.png" alt="">
-            <div>SUBSCRIPTION</div>
-
-            <img id="shop-size" src="../assets/buy-comics-shop-locator.png" alt="">
-            <div>COMIC SHOP LOCATOR</div>
-
-            <img src="../assets/buy-dc-power-visa.svg" alt="">
-            <div>DC POWER VISA</div>
-        </div>
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="flex">
@@ -83,32 +64,6 @@
 </template>
 
 <style lang="scss" scoped>
-.container_2{
-background-color: #0074E8;
-color: white;
-width: 100%;
-
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 35px 0;
-
-    img{
-        width: 6%;
-        margin-left: 30px;
-    }
-
-    div{
-        margin-left: 10px;
-        font-size: 12px;
-    }
-
-    #shop-size{
-        width: 5%;
-    }
-}
-}
 
 .container{
 background-image: url(../../public/footer-bg.jpg);
