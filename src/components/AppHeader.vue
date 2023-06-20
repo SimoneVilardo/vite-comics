@@ -51,7 +51,7 @@ export default {
             align-items: center;
             
             &:hover{
-                border-bottom: 5px solid #0074E8;
+                border-bottom: 5px solid #0282f9;
             }
             
             a{
@@ -61,7 +61,7 @@ export default {
                 font-weight: 600;
                 font-size: 12px;
                 &:hover{
-                    color: #0074E8;
+                    color: #0282f9;
                 }
             }
 
