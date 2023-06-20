@@ -3,9 +3,23 @@
 </script>
 
 <template>
-    <h1>ciao anto</h1>
+    <div class="container">
+        <div class="row">
+            <a href="#"> -- &gt; Content goes here &lt;--</a>
+        </div>
+    </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+.container{
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+}
 
+a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
 </style>

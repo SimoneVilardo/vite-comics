@@ -3,9 +3,16 @@
 </script>
 
 <template>
-    <h1>ciao marco</h1>
+    <div class="container">
+        <div class="row">
+            <h1>ciao marco</h1>
+        </div>
+    </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+.container{
+    background-image: url(../../public/footer-bg.jpg);
+}
 
 </style>
