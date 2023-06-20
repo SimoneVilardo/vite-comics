@@ -64,66 +64,118 @@
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </div>
-            <div class="img"><img src="../../public/dc-logo-bg.png" alt=""></div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="row">
+            <button>SIGN-UP NOW!</button>
+            <div class="icone">
+                <h3>FOLLOW US</h3>
+                <a href="#"><img src="../assets/footer-facebook.png" alt="facebook"></a>
+                <a href="#"><img src="../assets/footer-twitter.png" alt="twitter"></a>
+                <a href="#"><img src="../assets/footer-youtube.png" alt="youtube"></a>
+                <a href="#"><img src="../assets/footer-pinterest.png" alt="pinterest"></a>
+                <a href="#"><img src="../assets/footer-periscope.png" alt="periscope"></a>
+            </div>
         </div>
     </div>
 
 </template>
 
 <style lang="scss" scoped>
-        .container_2{
-        background-color: #0074E8;
-        color: white;
+.container_2{
+background-color: #0074E8;
+color: white;
+width: 100%;
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+
+    img{
+        width: 6%;
+        margin-left: 30px;
+    }
+
+    div{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    #shop-size{
+        width: 5%;
+    }
+}
+}
+
+.container{
+background-image: url(../../public/footer-bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+    .flex{
         width: 100%;
-        
-        .row{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 35px 0;
+        display: flex;
+        background-image: url(../../public/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
 
-            img{
-                width: 6%;
-                margin-left: 30px;
-            }
+    ul{
+        padding: 40px 0;
 
-            div{
-                margin-left: 10px;
+        li{
+            line-height: 1.3rem;
+            padding-right: 20px;
+            a{
+                color: gray;
                 font-size: 12px;
             }
+            
+            h4{
+                color: white;
+                margin: 15px 0;
+                font-size: 20px;
+            }
+        }
+    }
+}
+}
 
-            #shop-size{
-                width: 5%;
+.container3{
+    background-color: #303030;
+    width: 100%;
+    padding: 30px 0;
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        button{
+            background-color: #303030;
+            border: 3px solid #0074E8;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+        }
+
+        .icone{
+            display: flex;
+            align-items: center;
+            h3{
+                color: #0074E8;
+                padding: 0 15px;
+            }
+            a{
+                padding: 0 5px;
             }
         }
     }
     
-    .container{
-        background-image: url(../../public/footer-bg.jpg);
-        .row{
-            display: flex;
-            justify-content: space-between;
-
-            .flex{
-                display: flex;
-            }
-
-            ul{
-                padding: 40px 20px;
-
-                li{
-                    a{
-                        color: gray;
-                        font-size: 12px;
-                    }
-                    
-                    h4{
-                        color: white;
-                        margin: 10px 0;
-                        font-size: 20px;
-                    }
-                }
-            }
-        }
-    }
+}
 </style>
