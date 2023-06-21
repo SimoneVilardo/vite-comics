@@ -48,13 +48,13 @@ export default {
         li{
             display: flex;
             align-items: center;
+            border: 5px solid white;
             
             &:hover{
                 border-bottom: 5px solid #0282f9;
             }
             
             a{
-                color: black;
                 cursor: pointer;
                 margin: 10px;
                 font-weight: 600;
