@@ -19,12 +19,11 @@ export default {
         padding: 20px;
     }
 
-    h4{
+    h4, p{
         padding: 0 20px;
     }
 
     p{
-        padding: 0 20px;
         font-size: 10px;
     }
 </style>
