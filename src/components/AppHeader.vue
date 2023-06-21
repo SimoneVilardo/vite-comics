@@ -46,7 +46,6 @@ export default {
         display: flex;
 
         li{
-            height: 100%;
             display: flex;
             align-items: center;
             
