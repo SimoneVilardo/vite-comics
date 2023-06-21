@@ -53,15 +53,15 @@ export default {
             &:hover{
                 border-bottom: 5px solid #0282f9;
             }
+            &:hover a{
+                color: #0282f9;
+            }
             
             a{
                 cursor: pointer;
                 margin: 10px;
                 font-weight: 600;
                 font-size: 12px;
-                &:hover{
-                    color: #0282f9;
-                }
             }
 
         }
